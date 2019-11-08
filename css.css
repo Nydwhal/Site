@@ -1,0 +1,380 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.fleche 
+{
+	display:flex;
+	flex-direction: column;
+	position:fixed;
+	bottom: 0px;
+	left:auto;
+}
+
+body
+{
+ 	background-image: url("image.jpg");
+ 	background-attachment:  scroll;
+ 	background-size:  cover;	
+ 	width: 100%;
+ 	height: 100%;
+}
+
+/*en tête page accueil*/  
+.header1 
+{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(47,136,176,0.5);
+	margin-top: 0px;
+	border-bottom: solid white 6px;
+}
+.header1 a
+{
+	
+	text-decoration: none;
+	font-family:calibri; 
+	font-size: 35px;
+	color:white;
+	margin-left:37px;
+	margin-right:37px;
+}
+
+.header1 a:hover,.section1 a:hover
+{
+     text-decoration: underline;
+}
+
+.header1 a:active,.section1 a:active,.text_1 a:active
+{
+	color:black;
+}
+
+/*en tête pages secondaires*/
+.header2
+{
+	background-color: rgba(47,136,176,0.5);
+	border-bottom: solid white 6px;
+	min-height: 120px;
+	font-family:calibri;
+	color:white;
+}
+
+.header2 img
+{
+	float:left;
+	width:120px;
+}
+
+.section1
+{
+	text-decoration:none;
+	display:flex;
+	flex-direction:column;	
+	justify-content: center;
+}
+
+.section2
+{
+	height:70px;
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.section3
+{
+	border-top:solid white 3px;
+	height:40px;
+	text-align: center;
+	display:flex;
+	justify-content: space-around;
+}
+
+.section2 h1
+{
+	font-size:45px;
+	font-weight:normal;
+}
+
+.section3 a
+{
+	font-size:30px;
+	text-decoration:none;
+	color:white;
+}
+/*titres*/
+.h1_1
+{
+	background-color:black;
+	border :solid white 2px;
+	margin:auto;
+	font-family: calibri;
+	color:white;
+	text-align: center;
+	margin-top:50px;
+	font-size: 35px;
+}
+
+.h2_1
+{
+	text-align: center;
+	font-size:29px;
+	text-decoration: underline;
+}
+
+#h1_11
+{
+	text-align: center;
+	color:white;
+	font-size:35px;
+	font-family: calibri;
+	background-color: black;
+	border: solid white 2px;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:50%;
+}
+
+/*Paragraphes*/
+.text_1
+{
+	
+	color:black;
+	background-color: rgba(255,255,255, 0.75);
+	max-height:280px;
+	overflow:auto;
+	margin:5% auto;
+	width:70%;
+	font-size:18px;
+	padding:15px;
+	font-family:calibri;
+	display :flex;
+	flex-direction: column;
+}
+
+.text_1 a
+{
+	color:rgba(47,136,176,0.5);
+}
+
+.text_2,.text_3
+{
+	
+	color:black;
+	background-color: rgba(255,255,255, 0.75);
+	overflow:auto;
+	font-size:18px;
+	padding:15px;
+	font-family:calibri;
+	display :flex;
+	flex-direction: column;
+	padding:15px;
+}
+
+/*Contenu realite virtuelle*/
+.blocvr1,.blocvr2
+{
+	display:flex;
+	margin: 50px;
+	justify-content:center;
+	max-height:218px;
+	margin:5% 12%;
+}
+
+.blocvr3
+{
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	width:300px;
+}
+
+.imgvr1
+{
+	height:218px;
+}
+
+.imgvr2
+{
+	width:172px;
+}
+
+.text_2 a
+{
+	color:rgba(47,136,170);
+	text-decoration:none;
+}
+
+.text_2 a:hover
+{
+	text-decoration:underline;
+}
+
+.text_2 a:active
+{
+	color:black;
+}
+
+/*Page impact social*/
+.impact
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+
+/*Page contacts*/
+.contact1,.contact2
+{
+	display:flex;
+	justify-content:space-around;
+	margin-top:50px;
+}
+
+#Pierre,#Vincent,#Klara,#Cyril
+{
+	display:flex;
+	justify-content:space-between;
+	width:340px;
+	height:130px;
+	padding-left:20px;
+	font-family:calibri;
+	border:solid white 4px;
+	color:white;
+	background-color:rgba(47,136,176,0.5);
+}
+
+.photocontact
+{
+	width:130px;
+}
+
+#mail
+{
+	display:flex;
+	justify-content:center;
+
+}
+#mail2
+{
+	width:250px;
+}
+/*Page quelques chiffres*/
+table
+{
+	background-color:rgba(47,136,176,0.5);
+	border-collapse: collapse;
+}
+td,tr,th
+{
+    border: 1px solid white;
+	text-align:center;
+	color:white;
+	font-size:30px;
+	font-family:calibri;
+}
+.graphic,table
+{
+	margin:2% auto;
+	display :flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.imggraphic
+{
+	margin: 15% auto;
+	
+}
+
+
+.impact
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+
+/*pied de page*/
+footer
+{
+	background-color: rgba(47,136,176,0.5);
+	border-top:solid white 6px;
+	border-left:solid white 6px;
+	display:flex;
+	justify-content: space-between;
+	border-radius:10px;
+	color:white;
+	font-family:calibri;
+	padding-left: 20px;
+	margin:50px auto 0px;
+	width:1411px;
+}
+
+@media all and (max-width: 1024px)
+{	
+	/*Ajustement du texte*/
+	.h2_1,.section2 h1
+	{
+		font-size: 35px;
+	}
+	
+	.header1 a,.header2 a,.h1_1,#h1_11
+	{
+		font-size: 20px;
+	}
+	
+	ul,.text_1,.text_2,.text_3,.impact
+	{
+		font-size:14px;
+	}
+	
+	/*Ajustement des blocs*/
+	.text_1
+	{
+		max-height:200px;	
+	}
+	.text_2,.impact .text_1
+	{
+		max-height:150px;	
+	}
+	
+	#Pierre,#Vincent,#Klara,#Cyril
+	{
+		width:280px;
+		height:100px;
+	}
+	
+	footer
+	{
+		width:640px;
+	}
+	
+	/*Ajustement des images*/
+		#mail2
+	{
+		width:150px;
+	}
+	
+	.bandeau
+	{
+		height:120px;
+	}
+	
+	.imgvr1
+	{
+		height:180px;
+	}
+	
+	.imgvr2
+	{
+		width:142px;
+	}
+}
